@@ -1,0 +1,14 @@
+{
+  "name": "youtube-cropper-server",
+  "version": "1.0.0",
+  "description": "Local companion server for the YouTube Cropper Chrome extension. Downloads and crops YouTube videos at the highest available quality using yt-dlp and ffmpeg.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
